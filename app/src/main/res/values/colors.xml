@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="flame_orange">#E85D04</color>
+    <color name="flame_deep">#D00000</color>
+    <color name="charcoal">#1C1917</color>
+    <color name="sage">#4A7C59</color>
+    <color name="cream_soft">#FFF8F3</color>
+    <color name="ic_launcher_background">#E85D04</color>
+</resources>

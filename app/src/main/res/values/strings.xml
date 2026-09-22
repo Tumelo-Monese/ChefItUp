@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chef it Up</string>
+    <string name="app_tagline">Recipe Finder</string>
+    <string name="notification_channel_general">Chef it Up updates</string>
+
+    <!-- Splash -->
+    <string name="splash_brand">CHEF IT UP</string>
+    <string name="splash_tagline">Recipe Finder</string>
+    <string name="cd_app_logo">Chef it Up logo</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_skip">Skip</string>
+    <string name="onboarding_next">Next</string>
+    <string name="onboarding_back">Back</string>
+    <string name="onboarding_get_started">Get Started</string>
+
+    <string name="onboarding_page1_title">Discover Amazing Recipes</string>
+    <string name="onboarding_page1_body">Find meals that match your taste, diet and cooking style — personalised just for you.</string>
+
+    <string name="onboarding_page2_title">Cook With What You Have</string>
+    <string name="onboarding_page2_body">Enter ingredients already in your kitchen and we\'ll suggest recipes that cut waste and save time.</string>
+
+    <string name="onboarding_page3_title">Plan Your Week</string>
+    <string name="onboarding_page3_body">Build a weekly meal plan and generate a smart shopping list in one tap.</string>
+
+    <string name="onboarding_page4_title">Become a Better Chef</string>
+    <string name="onboarding_page4_body">Earn XP, unlock badges and level up from Home Cook to Award-Winning Chef.</string>
+
+    <string name="cd_onboarding_illustration">Onboarding illustration</string>
+
+    <!--
+      Google Sign-In Web client ID (OAuth client type 3).
+      Filled after Google provider + OAuth client appear in google-services.json.
+      Do NOT name this default_web_client_id (that name is reserved for the Google Services plugin).
+    -->
+    <string name="google_web_client_id" translatable="false">948823947768-cnq5cvm9uic96qfp4mekoeff8oq88774.apps.googleusercontent.com</string>
+
+    <!-- Auth shared -->
+    <string name="auth_email">Email</string>
+    <string name="auth_password">Password</string>
+    <string name="auth_confirm_password">Confirm password</string>
+    <string name="auth_show_password">Show password</string>
+    <string name="auth_hide_password">Hide password</string>
+    <string name="auth_or_divider">or</string>
+    <string name="auth_error_generic">Something went wrong. Please try again.</string>
+    <string name="auth_error_invalid_email">Enter a valid email address.</string>
+    <string name="auth_error_empty_email">Email is required.</string>
+    <string name="auth_error_empty_password">Password is required.</string>
+    <string name="auth_error_password_short">Password must be at least 8 characters.</string>
+    <string name="auth_error_password_mismatch">Passwords do not match.</string>
+    <string name="auth_error_empty_name">Name is required.</string>
+    <string name="auth_error_empty_surname">Surname is required.</string>
+    <string name="auth_error_empty_username">Username is required.</string>
+    <string name="auth_error_username_invalid">Username must be 3–20 characters (letters, numbers, underscore).</string>
+    <string name="auth_error_empty_phone">Phone number is required.</string>
+    <string name="auth_error_phone_invalid">Enter a valid South African phone number.</string>
+    <string name="auth_error_wrong_credentials">Incorrect email or password.</string>
+    <string name="auth_error_email_in_use">An account already exists with this email.</string>
+    <string name="auth_error_weak_password">Choose a stronger password.</string>
+    <string name="auth_error_user_not_found">No account found with this email.</string>
+    <string name="auth_error_network">Check your internet connection and try again.</string>
+    <string name="auth_error_google_cancelled">Google sign-in was cancelled.</string>
+    <string name="auth_error_google_failed">Google sign-in failed. Please try again.</string>
+    <string name="auth_error_google_not_configured">Google Sign-In is not ready yet. You can still use email/password. Finish Google provider setup in Firebase, then we will add the web client ID.</string>
+    <string name="auth_error_firebase_not_configured">Firebase is not configured yet. Replace app/google-services.json with your Firebase file.</string>
+
+    <!-- Password strength -->
+    <string name="password_strength_label">Password strength</string>
+    <string name="password_strength_weak">Weak</string>
+    <string name="password_strength_fair">Fair</string>
+    <string name="password_strength_good">Good</string>
+    <string name="password_strength_strong">Strong</string>
+
+    <!-- Login -->
+    <string name="login_title">Welcome back</string>
+    <string name="login_subtitle">Sign in to keep cooking with Chef it Up</string>
+    <string name="login_button">Log in</string>
+    <string name="login_forgot_password">Forgot password?</string>
+    <string name="login_remember_session">Remember me</string>
+    <string name="login_google">Continue with Google</string>
+    <string name="login_create_account">Create account</string>
+    <string name="login_no_account">New here?</string>
+    <string name="cd_google_sign_in">Sign in with Google</string>
+
+    <!-- Forgot password -->
+    <string name="forgot_password_title">Reset password</string>
+    <string name="forgot_password_body">Enter your email and we\'ll send a reset link.</string>
+    <string name="forgot_password_send">Send reset link</string>
+    <string name="forgot_password_cancel">Cancel</string>
+    <string name="forgot_password_sent">Password reset email sent. Check your inbox.</string>
+
+    <!-- Register -->
+    <string name="register_title">Create your account</string>
+    <string name="register_subtitle">Join Chef it Up and start your cooking journey</string>
+    <string name="register_name">Name</string>
+    <string name="register_surname">Surname</string>
+    <string name="register_phone">Phone number</string>
+    <string name="register_username">Username</string>
+    <string name="register_button">Create account</string>
+    <string name="register_have_account">Already have an account?</string>
+    <string name="register_sign_in">Log in</string>
+
+    <!-- Network / API errors -->
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="error_no_internet">You\'re offline. Showing saved recipes when available.</string>
+    <string name="error_network">Check your internet connection and try again.</string>
+    <string name="error_timeout">The request timed out. Please try again.</string>
+    <string name="error_server">Our kitchen servers are busy. Please try again shortly.</string>
+    <string name="error_unauthorized">Please sign in again to continue.</string>
+    <string name="error_not_found">We couldn\'t find that recipe.</string>
+    <string name="error_rate_limit">Too many requests. Please wait a moment and try again.</string>
+    <string name="offline_mode_indicator">Offline Mode</string>
+    <string name="offline_banner_message">You\'re offline. Some features may be limited.</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_see_all">See all</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_save">Save</string>
+    <string name="action_add">Add</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_done">Done</string>
+    <string name="action_close">Close</string>
+    <string name="action_back">Back</string>
+    <string name="cd_back">Navigate back</string>
+    <string name="cd_favourite">Toggle favourite</string>
+    <string name="cd_recipe_image">Recipe image</string>
+
+    <!-- Bottom navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_meal_planner">Meal Plan</string>
+    <string name="nav_saved">Saved</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Home -->
+    <string name="home_welcome">Welcome back, Chef %1$s</string>
+    <string name="home_welcome_guest">Welcome back, Chef</string>
+    <string name="home_search_hint">Search recipes…</string>
+    <string name="home_cook_with_what_i_have_title">Cook with What I Have</string>
+    <string name="home_cook_with_what_i_have_body">Use ingredients in your kitchen and cut waste.</string>
+    <string name="home_section_recommended">Recommended</string>
+    <string name="home_section_quick">Quick &amp; easy</string>
+    <string name="home_section_popular">Popular</string>
+    <string name="home_section_favourites">Your favourites</string>
+    <string name="home_section_continue">Continue cooking</string>
+    <string name="home_section_meal_plan">This week\'s plan</string>
+    <string name="home_empty_feed">No recipes yet. Pull to refresh or try search.</string>
+    <string name="home_logout">Log out</string>
+    <string name="home_signed_in_as">Signed in as %1$s</string>
+    <string name="minutes_short">%1$d min</string>
+    <string name="rating_value">%1$.1f</string>
+    <string name="match_used_missed">Used %1$d · Missed %2$d</string>
+
+    <!-- Search -->
+    <string name="search_title">Search</string>
+    <string name="search_hint">Search by name or ingredient</string>
+    <string name="search_recent">Recent searches</string>
+    <string name="search_clear_history">Clear history</string>
+    <string name="search_filters">Filters</string>
+    <string name="search_cuisine">Cuisine</string>
+    <string name="search_diet">Diet</string>
+    <string name="search_meal_type">Meal type</string>
+    <string name="search_max_time">Max time</string>
+    <string name="search_any">Any</string>
+    <string name="search_empty_title">No recipes found</string>
+    <string name="search_empty_body">Try a different query or clear filters.</string>
+    <string name="search_results_count">%1$d results</string>
+    <string name="filter_clear">Clear filters</string>
+    <string name="filter_apply">Apply</string>
+    <string name="max_time_15">15 min</string>
+    <string name="max_time_30">30 min</string>
+    <string name="max_time_45">45 min</string>
+    <string name="max_time_60">60 min</string>
+
+    <!-- Recipe detail -->
+    <string name="recipe_detail_title">Recipe</string>
+    <string name="recipe_servings">Servings</string>
+    <string name="recipe_ingredients">Ingredients</string>
+    <string name="recipe_instructions">Instructions</string>
+    <string name="recipe_start_cooking">Start cooking</string>
+    <string name="recipe_add_to_meal_plan">Add to meal plan</string>
+    <string name="recipe_add_to_shopping">Add ingredients to shopping list</string>
+    <string name="recipe_added_to_shopping">Ingredients added to shopping list</string>
+    <string name="recipe_added_to_meal_plan">Added to meal plan</string>
+    <string name="recipe_ready_in">Ready in %1$d min</string>
+    <string name="recipe_step_number">Step %1$d</string>
+    <string name="meal_plan_pick_day">Choose day</string>
+    <string name="meal_plan_pick_meal">Choose meal</string>
+    <string name="decrease_servings">Decrease servings</string>
+    <string name="increase_servings">Increase servings</string>
+
+    <!-- Cook with ingredients -->
+    <string name="cook_ingredients_title">Cook with What I Have</string>
+    <string name="cook_ingredients_hint">Add an ingredient</string>
+    <string name="cook_ingredients_add">Add</string>
+    <string name="cook_ingredients_clear">Clear all</string>
+    <string name="cook_ingredients_search">Find recipes</string>
+    <string name="cook_ingredients_empty_title">Add ingredients</string>
+    <string name="cook_ingredients_empty_body">List what\'s in your fridge and pantry to see matching recipes.</string>
+    <string name="cook_ingredients_no_results">No matches yet. Try fewer or different ingredients.</string>
+
+    <!-- Saved -->
+    <string name="saved_title">Saved</string>
+    <string name="saved_all">All</string>
+    <string name="saved_breakfast">Breakfast</string>
+    <string name="saved_lunch">Lunch</string>
+    <string name="saved_dinner">Dinner</string>
+    <string name="saved_desserts">Desserts</string>
+    <string name="saved_empty_title">No favourites yet</string>
+    <string name="saved_empty_body">Tap the heart on a recipe to save it here.</string>
+
+    <!-- Meal planner -->
+    <string name="meal_planner_title">Meal planner</string>
+    <string name="meal_type_breakfast">Breakfast</string>
+    <string name="meal_type_lunch">Lunch</string>
+    <string name="meal_type_dinner">Dinner</string>
+    <string name="meal_type_snack">Snack</string>
+    <string name="day_mon">Mon</string>
+    <string name="day_tue">Tue</string>
+    <string name="day_wed">Wed</string>
+    <string name="day_thu">Thu</string>
+    <string name="day_fri">Fri</string>
+    <string name="day_sat">Sat</string>
+    <string name="day_sun">Sun</string>
+    <string name="meal_plan_add">Add meal</string>
+    <string name="meal_plan_remove">Remove</string>
+    <string name="meal_plan_empty_slot">No meal planned</string>
+    <string name="meal_plan_generate_shopping">Shopping list</string>
+    <string name="meal_plan_shopping_generated">Shopping list updated from your meal plan</string>
+    <string name="meal_plan_pick_recipe">Choose a recipe</string>
+
+    <!-- Shopping list -->
+    <string name="shopping_list_title">Shopping list</string>
+    <string name="shopping_add_hint">Add custom item</string>
+    <string name="shopping_clear_completed">Clear completed</string>
+    <string name="shopping_empty_title">List is empty</string>
+    <string name="shopping_empty_body">Add items manually or generate from your meal plan.</string>
+    <string name="shopping_category_produce">Produce</string>
+    <string name="shopping_category_dairy">Dairy</string>
+    <string name="shopping_category_meat">Meat</string>
+    <string name="shopping_category_pantry">Pantry</string>
+    <string name="shopping_category_other">Other</string>
+
+    <!-- Cooking mode -->
+    <string name="cooking_mode_title">Cooking mode</string>
+    <string name="cooking_step_of">Step %1$d of %2$d</string>
+    <string name="cooking_previous">Previous</string>
+    <string name="cooking_next">Next</string>
+    <string name="cooking_finish">Finish</string>
+    <string name="cooking_timer">Timer</string>
+    <string name="cooking_timer_5">5 min</string>
+    <string name="cooking_timer_10">10 min</string>
+    <string name="cooking_timer_15">15 min</string>
+    <string name="cooking_timer_30">30 min</string>
+    <string name="cooking_timer_pause">Pause</string>
+    <string name="cooking_timer_resume">Resume</string>
+    <string name="cooking_timer_cancel">Cancel timer</string>
+    <string name="cooking_timer_done_title">Timer finished</string>
+    <string name="cooking_timer_done_body">Your cooking timer is up.</string>
+    <string name="cooking_speak_step">Read step aloud</string>
+    <string name="cooking_xp_earned">+%1$d XP earned!</string>
+    <string name="cooking_complete_title">Recipe complete</string>
+    <string name="cooking_no_steps">This recipe has no steps yet.</string>
+
+    <!-- Profile -->
+    <string name="profile_title">Profile</string>
+    <string name="profile_xp">%1$d XP</string>
+    <string name="profile_xp_progress">%1$d / %2$d XP to next level</string>
+    <string name="profile_recipes_cooked">Recipes cooked</string>
+    <string name="profile_badges">Badges</string>
+    <string name="profile_settings">Settings</string>
+    <string name="profile_logout">Log out</string>
+    <string name="chef_level_home_cook">Home Cook</string>
+    <string name="chef_level_sous_chef">Sous Chef</string>
+    <string name="chef_level_master_chef">Master Chef</string>
+    <string name="chef_level_award_winning">Award-Winning Chef</string>
+    <string name="badge_locked">Locked</string>
+    <string name="badge_earned">Earned</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_dietary">Dietary preference</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_theme_system">System</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_language_en">English</string>
+    <string name="settings_language_zu">isiZulu</string>
+    <string name="settings_language_af">Afrikaans</string>
+    <string name="settings_language_st">Sesotho</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_meal_reminders">Meal reminders</string>
+    <string name="settings_recipe_recommendations">Recipe recommendations</string>
+    <string name="settings_badge_notifications">Badge notifications</string>
+    <string name="settings_account">Account</string>
+    <string name="settings_diet_none">None</string>
+    <string name="settings_diet_vegetarian">Vegetarian</string>
+    <string name="settings_diet_vegan">Vegan</string>
+    <string name="settings_diet_gluten_free">Gluten free</string>
+    <string name="settings_diet_dairy_free">Dairy free</string>
+
+    <!-- Empty / loading / error -->
+    <string name="loading_generic">Loading…</string>
+    <string name="empty_generic_title">Nothing here yet</string>
+    <string name="empty_generic_body">Check back soon.</string>
+    <string name="error_state_title">Something went wrong</string>
+    <string name="recipes_source_live">Live recipes (Spoonacular)</string>
+    <string name="recipes_source_mock">Sample recipes (add Spoonacular API key for live data)</string>
+
+    <!-- Scheduled reminders -->
+    <string name="notification_channel_reminders">Meal &amp; recipe reminders</string>
+    <string name="meal_reminder_title">Time to cook</string>
+    <string name="meal_reminder_body">Check today\'s meal plan and get cooking.</string>
+    <string name="recipe_recommendation_title">Fresh recipe idea</string>
+    <string name="recipe_recommendation_body">Discover something delicious to cook next.</string>
+</resources>

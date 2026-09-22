@@ -1,0 +1,15 @@
+# Ignore Build Artifacts
+/.gradle/
+**/build/
+/local.properties
+/.idea/
+*.iml
+.DS_Store
+captures/
+*.apk
+*.ap_
+*.dex
+.cxx/
+
+# Keep google-services.json in repo for local builds.
+# Never commit service-account JSON or unrestricted API secrets.

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "948823947768",
+    "project_id": "chef-it-up-eb070",
+    "storage_bucket": "chef-it-up-eb070.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948823947768:android:0002e31cd8205210d0fe0d",
+        "android_client_info": {
+          "package_name": "com.chefitup.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "948823947768-frsf3i03b4unf28qmosvucqo9ejldiig.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chefitup.app",
+            "certificate_hash": "29b2198c894b8d96a578df1c41770975dcd166bf"
+          }
+        },
+        {
+          "client_id": "948823947768-cnq5cvm9uic96qfp4mekoeff8oq88774.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYnWsXfr7pYL8blQ86ymWdNphedm8ewn4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "948823947768-cnq5cvm9uic96qfp4mekoeff8oq88774.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
